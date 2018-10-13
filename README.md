@@ -5,3 +5,21 @@
 ruby-dictionary3を搭載したBignyancoから派生しました。
 
 html専用です。
+
+[環境構築(Sinatraのあらかると)](http://takkii.hatenablog.com/entry/2018/08/01/152116)
+
+※ ブログ内で検索するとvimに関連する記事も複数あります。
+参考にどうぞ。
+
+```txt
+
+neovim
+deinパッケージ管理
+dein.toml
+
+[[plugins]]
+repo = 'takkii/bistro'
+
+```
+
+>bistro(ビストロ)は、造り手が渡してくれた思いを電子的に形どるために、名付けました。対象はおいしい料理を作ってくれる料理人を思わせる、ねこのフェルトでした。
