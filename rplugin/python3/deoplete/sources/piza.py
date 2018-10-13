@@ -9,8 +9,9 @@ class Source(Base):
         self.name = 'Bistro'
         self.filetypes = ['html']
         self.mark = '[bistro_dictionary]'
+        htmlmatch = [r'\.[a-zA-Z0-9_?!]*|[a-zA-Z]\w*::\w*']
         regexmatch = [r'[<a-zA-Z(?: .+?)?>.*?<\/a-zA-Z>]']
-        self.input_pattern = regexmatch
+        self.input_pattern = '|'.join(htmlmatch + regexmatch)
         self.rank = 500
 
     def get_complete_position(self, context):
