@@ -8,7 +8,7 @@ ruby-dictionary3を搭載したBignyancoから派生しました。
 
 html専用です。
 
-[環境構築(Sinatraのあらかると)](http://takkii.hatenablog.com/entry/2018/08/01/152116)
+[環境構築・零](http://takkii.hatenablog.com/entry/2018/08/01/152116)
 
 ※ ブログ内で検索するとvimに関連する記事も複数あります。
 参考にどうぞ。
